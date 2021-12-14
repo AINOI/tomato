@@ -1,8 +1,10 @@
 import Vue from 'vue'
+import './plugins/bootstrap-vue'
 import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import './style/app.styl'
 
 Vue.config.productionTip = false
 
